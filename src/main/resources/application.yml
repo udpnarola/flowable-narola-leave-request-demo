@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flowable_narola_leave_request_demo?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: udp.narola@gmail.com
+    password: narola127
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+              enable: true
+
+server:
+  error:
+    include-message: always
