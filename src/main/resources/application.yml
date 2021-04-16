@@ -12,7 +12,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: udp.narola@gmail.com
-    password: narola127
+    password:
     properties:
       mail:
         smtp:
